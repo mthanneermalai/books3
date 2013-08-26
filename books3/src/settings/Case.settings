@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <closeCaseThroughStatusChange>true</closeCaseThroughStatusChange>
+    <defaultCaseOwner>Administrator</defaultCaseOwner>
+    <defaultCaseOwnerType>Queue</defaultCaseOwnerType>
+    <defaultCaseUser>adminuser@nuffieldhealth.com</defaultCaseUser>
+    <emailToCase>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>false</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>true</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalHosp</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>advice.centre@nuffieldhealth.com</emailAddress>
+            <routingName>Advice Centre</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioTriage</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>adviceline.enquiries@nuffieldhealth.com</emailAddress>
+            <routingName>Advice Line</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>ComplaintCSC</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>centralservices.complaints@nuffieldhealth.com</emailAddress>
+            <routingName>Central Services Complaint</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>ChooseBook</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>chooseandbook@nuffieldhealth.com</emailAddress>
+            <routingName>Choose &amp; Book</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>CorporateHA</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>corporate.support@nuffieldhealth.com</emailAddress>
+            <routingName>Corporate</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalDiagnosis</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>diagnosticsnac@nuffieldhealth.com</emailAddress>
+            <routingName>Diagnostics NAC</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>fooddiary.queries@nuffieldhealth.com</emailAddress>
+            <routingName>Food Diaries</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalDiagnosis</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>further.treatment@nuffieldhealth.com</emailAddress>
+            <routingName>Further Treatment</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioTriage</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>fusion@nuffieldhealth.com</emailAddress>
+            <routingName>Fusion</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>fusionadminusers@nuffieldhealth.com</emailAddress>
+            <routingName>Fusion Admin</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>fusionnetwork@nuffieldhealth.com</emailAddress>
+            <routingName>Fusion Network</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>gpevents@nuffieldhealth.com</emailAddress>
+            <routingName>GP Events</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>support@nuffieldhealthscore.com</emailAddress>
+            <routingName>Health Score</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>inboundteam@nuffieldhealth.com</emailAddress>
+            <routingName>Inbound Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioHAMS</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>m&amp;s@nuffieldhealth.com</emailAddress>
+            <routingName>M&amp;S Queries</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioHAMS</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>mammogramqueries@nuffieldhealth.com</emailAddress>
+            <routingName>Mammo Queries</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>physiotherapy.authorisations@nuffieldhealth.com</emailAddress>
+            <routingName>Physio Authorisations</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>physiotherapy.queries@nuffieldhealth.com</emailAddress>
+            <routingName>Physio Queries</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>physiotherapy.referrals@nuffieldhealth.com</emailAddress>
+            <routingName>Physio Referrals</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>physiotherapy.remittances@nuffieldhealth.com</emailAddress>
+            <routingName>Physio Remittances</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Inbound SMS</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>sms@nuffieldhealth.com</emailAddress>
+            <routingName>SMS inbox</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioTriage</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>specialist.physio@nuffieldhealth.com</emailAddress>
+            <routingName>Specialist Physio</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>tm2andsambaadmin@nuffieldhealth.com</emailAddress>
+            <routingName>TM2 &amp; SAMBA</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>vicoordinator@nuffieldhealth.com</emailAddress>
+            <routingName>VI Co-ordinators</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>InboundPhysioAdmin</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>vi1.support@nuffieldhealth.com</emailAddress>
+            <routingName>VI1</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>HospitalDiagnosis</caseOrigin>
+            <casePriority>Low</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>diagnosticsqueries@nuffieldhealth.com</emailAddress>
+            <routingName>diagnostics.queries</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+    </emailToCase>
+    <enableCaseFeed>false</enableCaseFeed>
+    <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableSuggestedArticlesApplication>true</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
+    <enableSuggestedSolutions>false</enableSuggestedSolutions>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
+    <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
+    <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
+    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showFewerCloseActions>false</showFewerCloseActions>
+    <useSystemEmailAddress>true</useSystemEmailAddress>
+    <webToCase>
+        <enableWebToCase>false</enableWebToCase>
+    </webToCase>
+</CaseSettings>

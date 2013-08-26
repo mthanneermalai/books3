@@ -12,5 +12,9 @@
         <members>*</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>Settings</name>
+    </types>
     <version>27.0</version>
 </Package>
